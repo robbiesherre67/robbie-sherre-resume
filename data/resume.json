@@ -1,0 +1,82 @@
+{
+    "name": "Robbie Sherre",
+    "title": "Senior Front-End / Full-Stack Developer",
+    "location": "Burbank, CA (Remote/Hybrid)",
+    "phone": "747-214-9207",
+    "email": "robbiesherre@idesigntek.com",
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/robbiesherre67" },
+      { "label": "LinkedIn", "url": "https://www.linkedin.com/in/robbie-sherre" }
+    ],
+    "summary": "Senior front-end developer with 10+ years experience delivering scalable, user-centric web apps across the full stack. Deep in React, Vue (2 & 3 Composition API), TypeScript, Node/Express, and Python/Django. Extensive CMS work (WordPress custom theming/plugins) and Adobe Experience Manager migrations. Built AI/ML features including OpenAI-powered natural language interfaces, TensorFlow/scikit-learn recommenders, and PyTorch computer vision. DevOps-ready with Docker/Kubernetes/Terraform and CI/CD via GitHub Actions/Jenkins. Proven at bridging UX with infra for rapid, reliable delivery. AWS: infra automation, containerized deployments, ELB + Auto Scaling for high availability.",
+    "skills": {
+      "primary": ["React.js", "Vue 2/3 (Composition API)", "TypeScript", "Node.js", "Express", "Python/Django"],
+      "ai": ["OpenAI API", "TensorFlow", "PyTorch", "scikit-learn", "AI-driven interfaces", "Recommendation engines", "Computer vision"],
+      "cms_platforms": ["WordPress (MU, custom themes/plugins)", "AEM", "Shopify", "BigCommerce", "WooCommerce", "Squarespace"],
+      "devops": ["CI/CD (GitHub Actions, Jenkins, CircleCI)", "Docker", "Kubernetes", "Terraform", "CloudFormation", "AWS (ELB, Auto Scaling)"],
+      "frontend": ["HTML5", "CSS3/SASS", "Responsive/Mobile-first", "Accessibility (WCAG)", "Performance Optimization", "UX Enhancement"],
+      "data_apis": ["REST", "SOAP", "JSON", "XML", "SQL/JDBC", "NoSQL (MongoDB, Redis, Cassandra)", "API integration"],
+      "tooling": ["Git/GitHub", "Gulp", "VS Code", "Figma", "Photoshop", "Agile/Scrum"]
+    },
+    "experience": [
+      {
+        "company": "Kaiser Permanente",
+        "location": "Remote / CA",
+        "roles": [
+          {
+            "title": "Front-end Web Developer",
+            "period": "Apr 2020 – Apr 2025",
+            "highlights": [
+              "Architected responsive member-portal features (billing, scheduling, pharmacy); improved satisfaction and reduced mobile bounce.",
+              "Converted 100+ legacy HTML/RESX assets into reusable AEM components; accelerated content updates by 40% across 500+ microsites.",
+              "Developed Single Billing Office solution in React; led integration testing and multi-region rollout.",
+              "Shipped MyChart Evolution enhancements; increased portal engagement by ~25% and reduced support calls by ~15%.",
+              "Automated infra on AWS (CI/CD, Docker, ELB, Auto Scaling) for scalable, reliable delivery.",
+              "Automated release flow with Git + Jenkins; trimmed manual steps by ~60% and sped time-to-production."
+            ]
+          },
+          {
+            "title": "Front-end / Content Web Developer",
+            "period": "May 2017 – Apr 2020",
+            "highlights": [
+              "Led WordPress MU network of 500+ healthcare sites; standardized templates/workflows to improve launch speed by ~30%.",
+              "Drove transition from BCssP TeamSite to AEM; trained content teams and documented best practices.",
+              "Configured MyChart/Epic Systems localization to ensure consistent terminology and regulatory compliance.",
+              "React front ends + WP MU back ends for 500+ microsites (including CVS).",
+              "Testing & Quality: TDD, ESLint/Prettier, cross-browser, WCAG accessibility.",
+              "Design & Collaboration: responsive design, UX strategy, Agile/Scrum, Adobe Photoshop."
+            ]
+          }
+        ]
+      },
+      {
+        "company": "Cinema Libre Studio",
+        "location": "Burbank, CA",
+        "roles": [
+          {
+            "title": "Front-End Developer (Freelance)",
+            "period": "Oct 2016 – Mar 2020",
+            "highlights": [
+              "Built React/Vue microsites for film clients; integrated JSON APIs for dynamic, mobile-first experiences.",
+              "Custom WordPress themes/plugins; deployed across Shopify, BigCommerce, WooCommerce, Squarespace.",
+              "Translated brand guidelines into responsive, WCAG-compliant UIs with designers/UX.",
+              "Architected FE with React Hooks/Redux, Vue Composition API/Pinia, real-time updates via REST/WebSockets.",
+              "Implemented relational (MySQL/Postgres) and NoSQL (MongoDB/Redis/Cassandra) data layers, including optimization and migrations.",
+              "Testing: Jest/Cypress e2e achieving ~95% coverage; reduced production bugs.",
+              "DevOps: Docker/Kubernetes, CI/CD with GitHub Actions/Jenkins/CircleCI, Terraform/CloudFormation."
+            ]
+          }
+        ]
+      }
+    ],
+    "ai_projects": [
+      "Slack bot (Node.js + OpenAI) auto-summarizing threads; cut meeting prep time by ~50%.",
+      "GPT-4 customer-support chatbot automating ~70% of inquiries; first-response time from 4h to <30m.",
+      "TensorFlow.js in-browser intent classifier for scheduling; ~92% accuracy, -75% manual parsing.",
+      "TensorFlow CNN for manufacturing defect detection; ~96% precision, reduced inspection costs by ~40%."
+    ],
+    "education": [
+      { "school": "UCLA Extension", "program": "Computer Science", "period": "2002 – 2004" },
+      { "school": "General Assembly", "program": "JavaScript", "period": "2005 – 2006" }
+    ]
+  }  
