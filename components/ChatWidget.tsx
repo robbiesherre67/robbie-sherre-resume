@@ -13,7 +13,6 @@ export default function ChatWidget() {
     setMessages((m) => [...m, { role: "user", content: text }]);
     setInput("");
     try {
-      // Root-leading path works on Vercel/custom domain and avoids basePath ambiguity
       const res = await fetch("/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -22,10 +21,17 @@ export default function ChatWidget() {
       const json = await res.json();
       setMessages((m) => [...m, { role: "assistant", content: json.reply ?? "…" }]);
     } catch {
-      setMessages((m) => [...m, { role: "assistant", content: "Sorry—something went wrong. Try again." }]);
+      setMessages((m) => [
+        ...m,
+        { role: "assistant", content: "Sorry—something went wrong. Try again." },
+      ]);
     } finally {
-      // ensure we scroll after DOM paints
-      queueMicrotask(() => listRef.current?.scrollTo({ top: listRef.current.scrollHeight, behavior: "smooth" }));
+      queueMicrotask(() =>
+        listRef.current?.scrollTo({
+          top: listRef.current.scrollHeight,
+          behavior: "smooth",
+        })
+      );
     }
   }
 
@@ -47,13 +53,13 @@ export default function ChatWidget() {
       <button
         onClick={() => setOpen(true)}
         aria-label="Open AI Robbie chat"
-        className="fixed right-5 bottom-5 rounded-full border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-900 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100 dark:hover:bg-gray-800"
+        className="fixed right-5 bottom-5 z-50 rounded-full border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-900 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100 dark:hover:bg-gray-800"
       >
         Chat with AI Robbie
       </button>
 
       {open && (
-        <div className="fixed right-5 bottom-24 flex max-h-[70vh] w-80 flex-col rounded-xl border border-gray-200 bg-white shadow-lg dark:border-gray-800 dark:bg-gray-900">
+        <div className="fixed right-5 bottom-24 z-50 flex max-h-[70vh] w-80 flex-col overflow-hidden rounded-xl border border-gray-200 bg-white shadow-lg dark:border-gray-800 dark:bg-gray-900">
           <div className="border-b p-3 text-sm font-semibold text-gray-900 dark:border-gray-800 dark:text-gray-100">
             AI Robbie
           </div>
@@ -77,26 +83,26 @@ export default function ChatWidget() {
             })}
           </div>
 
-          <div className="flex items-center gap-2 border-t p-3 dark:border-gray-800">
-  <input
-    value={input}
-    onChange={(e) => setInput(e.target.value)}
-    placeholder="Ask about React, AEM, AWS…"
-    className="flex-1 rounded-md border border-gray-300 bg-white px-3 py-2 text-sm text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-100"
-  />
-  <button
-    onClick={send}
-    className="h-9 rounded-md bg-blue-600 px-3 text-sm font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
-  >
-    Send
-  </button>
-  <button
-    onClick={() => setOpen(false)}
-    className="h-9 rounded-md border border-gray-300 bg-white px-3 text-sm font-medium text-gray-900 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-100 dark:hover:bg-gray-700"
-  >
-    Close
-  </button>
-</div>
+          {/* Footer */}
+          <div className="flex items-center gap-2 border-t px-3 py-2 dark:border-gray-800">
+            <input
+              value={input}
+              onChange={(e) => setInput(e.target.value)}
+              className="min-w-0 flex-1 rounded-md border border-gray-300 bg-white px-3 py-2 text-sm text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-100"
+            />
+            <button
+              onClick={send}
+              className="h-9 shrink-0 rounded-md bg-blue-600 px-3 text-sm font-medium leading-none text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            >
+              Send
+            </button>
+            <button
+              onClick={() => setOpen(false)}
+              className="h-9 shrink-0 rounded-md border border-gray-300 bg-white px-3 text-sm font-medium leading-none text-gray-900 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-100 dark:hover:bg-gray-700"
+            >
+              Close
+            </button>
+          </div>
         </div>
       )}
     </>
