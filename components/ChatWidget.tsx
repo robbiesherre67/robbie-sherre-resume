@@ -5,11 +5,13 @@ export default function ChatWidget() {
   const [open, setOpen] = useState(false);
   const [input, setInput] = useState("");
   const [messages, setMessages] = useState<{ role: "user" | "assistant"; content: string }[]>([]);
+  const [sending, setSending] = useState(false);
   const listRef = useRef<HTMLDivElement>(null);
 
   async function send() {
     const text = input.trim();
-    if (!text) return;
+    if (!text || sending) return;
+    setSending(true);
     setMessages((m) => [...m, { role: "user", content: text }]);
     setInput("");
     try {
@@ -26,6 +28,7 @@ export default function ChatWidget() {
         { role: "assistant", content: "Sorry—something went wrong. Try again." },
       ]);
     } finally {
+      setSending(false);
       queueMicrotask(() =>
         listRef.current?.scrollTo({
           top: listRef.current.scrollHeight,
@@ -35,7 +38,7 @@ export default function ChatWidget() {
     }
   }
 
-  // Allow Enter to send
+  // Allow Enter to send (if not empty and not sending)
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (!open) return;
@@ -46,7 +49,7 @@ export default function ChatWidget() {
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [open, input]);
+  }, [open, input, sending]);
 
   return (
     <>
@@ -88,13 +91,15 @@ export default function ChatWidget() {
             <input
               value={input}
               onChange={(e) => setInput(e.target.value)}
-              className="min-w-0 flex-1 rounded-md border border-gray-300 bg-white px-3 py-2 text-sm text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-100"
+              placeholder="Type a message…"
+              className="min-w-0 flex-1 rounded-md border border-gray-300 bg-white px-3 py-2 text-sm text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-100"
             />
             <button
               onClick={send}
-              className="h-9 shrink-0 rounded-md bg-blue-600 px-3 text-sm font-medium leading-none text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              disabled={sending || !input.trim()}
+              className="h-9 shrink-0 rounded-md bg-blue-600 px-3 text-sm font-medium leading-none text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 disabled:cursor-not-allowed disabled:opacity-50"
             >
-              Send
+              {sending ? "Sending…" : "Send"}
             </button>
             <button
               onClick={() => setOpen(false)}
