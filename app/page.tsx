@@ -49,7 +49,7 @@ export default function Home() {
                 Print / Save as PDF
               </Link>
               <a
-                href="/api/export/docx"
+                href="api/export/docx"
                 className="inline-flex items-center rounded-md border border-gray-300 bg-white px-4 py-2.5 text-sm font-medium text-gray-900 hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100 dark:hover:bg-gray-800"
               >
                 Download .DOCX

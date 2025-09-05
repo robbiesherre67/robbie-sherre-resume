@@ -1,3 +1,4 @@
+import Link from "next/link";
 import resume from "@/data/resume.json";
 import type { Resume, Skills } from "@/types/resume";
 
@@ -25,16 +26,12 @@ export default function ResumePage() {
       </div>
 
       <div className="mt-4 flex gap-3 flex-wrap">
-        <a href="/resume/print" target="_blank" rel="noreferrer">
-          <button className="bg-blue-600 text-white hover:bg-blue-700">
-            Download PDF (Print View)
-          </button>
-        </a>
-        <a href="/api/export/docx">
-          <button className="bg-green-600 text-white hover:bg-green-700">
-            Download MS Word
-          </button>
-        </a>
+      <Link href="/resume/print" target="_blank" rel="noreferrer">
+      <button className="bg-blue-600 text-white hover:bg-blue-700">Download PDF (Print View)</button>
+      </Link>
+      <a href="api/export/docx">
+      <button className="bg-green-600 text-white hover:bg-green-700">Download MS Word</button>
+      </a>
       </div>
 
       <section className="mt-6">
