@@ -8,14 +8,19 @@
     { "label": "GitHub", "url": "https://github.com/robbiesherre67" },
     { "label": "LinkedIn", "url": "https://www.linkedin.com/in/robbie-sherre" }
   ],
-  "summary": "Senior front-end developer with 10+ years experience delivering scalable, 
-  user-centric web apps across the full stack. Deep in React, Vue (2 & 3 Composition API), 
-  TypeScript, Node/Express, and Python/Django. Extensive CMS work (WordPress custom theming/plugins) 
-  and Adobe Experience Manager migrations. Built AI/ML features including OpenAI-powered natural 
-  language interfaces, TensorFlow/scikit-learn recommenders, and PyTorch computer vision. 
-  DevOps-ready with Docker/Kubernetes/Terraform and CI/CD via GitHub Actions/Jenkins. 
-  Proven at bridging UX with infra for rapid, reliable delivery. AWS: infra automation, 
-  containerized deployments, ELB + Auto Scaling for high availability.",
+  "summary": "Senior front-end developer with 10+ years experience delivering scalable, user-centric web apps across the full stack. Deep in React, Vue (2 & 3 Composition API), TypeScript, Node/Express, and Python/Django. Extensive CMS work (WordPress custom theming/plugins) and Adobe Experience Manager migrations. Built AI/ML features including OpenAI-powered natural language interfaces, TensorFlow/scikit-learn recommenders, and PyTorch computer vision. DevOps-ready with Docker/Kubernetes/Terraform and CI/CD via GitHub Actions/Jenkins. Proven at bridging UX with infra for rapid, reliable delivery. AWS: infra automation, containerized deployments, ELB + Auto Scaling for high availability.",
+  "highlights": [
+    "Redux Toolkit",
+    "RTK Query",
+    "React Context API",
+    "State Management",
+    "TypeScript",
+    "React Hooks",
+    "Next.js (App Router, Turbopack)",
+    "AWS CDK",
+    "Docker & Kubernetes",
+    "CI/CD (GitHub Actions, Jenkins)"
+  ],
   "skills": {
     "primary": ["React.js", "Vue 2/3 (Composition API)", "TypeScript", "Node.js", "Express", "Python/Django"],
     "ai": ["OpenAI API", "TensorFlow", "PyTorch", "scikit-learn", "AI-driven interfaces", "Recommendation engines", "Computer vision"],
