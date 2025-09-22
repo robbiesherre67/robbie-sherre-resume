@@ -8,10 +8,10 @@ export default function ResumePage() {
   return (
     <main className="max-w-4xl mx-auto p-6">
       <h1 className="text-3xl font-bold">{r.name}</h1>
-      <div className="text-lg text-gray-700">
+      <div className="text-lg text-white-700">
         {r.title} • {r.location}
       </div>
-      <div className="mt-1 text-gray-700">
+      <div className="mt-1 text-white-700">
         <a href={`mailto:${r.email}`} className="mr-3">
           {r.email}
         </a>

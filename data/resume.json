@@ -22,7 +22,7 @@
     "CI/CD (GitHub Actions, Jenkins)"
   ],
   "skills": {
-    "primary": ["React.js", "Vue 2/3 (Composition API)", "TypeScript", "Node.js", "Express", "Python/Django"],
+    "primary": ["React.js", "Redux", "Vue 2/3 (Composition API)", "TypeScript", "Node.js", "Express", "Python/Django"],
     "ai": ["OpenAI API", "TensorFlow", "PyTorch", "scikit-learn", "AI-driven interfaces", "Recommendation engines", "Computer vision"],
     "cms_platforms": ["WordPress (MU, custom themes/plugins)", "AEM", "Shopify", "BigCommerce", "WooCommerce", "Squarespace"],
     "devops": ["CI/CD (GitHub Actions, Jenkins, CircleCI)", "Docker", "Kubernetes", "Terraform", "CloudFormation", "AWS (ELB, Auto Scaling)"],
