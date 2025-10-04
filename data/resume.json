@@ -1,6 +1,6 @@
 {
   "name": "Robbie Sherre",
-  "title": "Senior Front-End / Full-Stack Developer",
+  "title": "Generative AI & Front-End Engineer | LLM Applications • React • Advanced State Management",
   "location": "Burbank, CA (Remote/Hybrid)",
   "phone": "747-214-9207",
   "email": "robbiesherre@idesigntek.com",
@@ -8,27 +8,89 @@
     { "label": "GitHub", "url": "https://github.com/robbiesherre67" },
     { "label": "LinkedIn", "url": "https://www.linkedin.com/in/robbie-sherre" }
   ],
-  "summary": "Senior front-end developer with 10+ years experience delivering scalable, user-centric web apps across the full stack. Deep in React, Vue (2 & 3 Composition API), TypeScript, Node/Express, and Python/Django. Extensive CMS work (WordPress custom theming/plugins) and Adobe Experience Manager migrations. Built AI/ML features including OpenAI-powered natural language interfaces, TensorFlow/scikit-learn recommenders, and PyTorch computer vision. DevOps-ready with Docker/Kubernetes/Terraform and CI/CD via GitHub Actions/Jenkins. Proven at bridging UX with infra for rapid, reliable delivery. AWS: infra automation, containerized deployments, ELB + Auto Scaling for high availability.",
+  "summary": "Front-end and generative AI engineer building large-scale, user-centric web apps with React, Next.js, and modern state-management (Redux Toolkit, RTK Query, Context). Experienced delivering production component systems, integrating LLM capabilities, and shaping polished UX with accessible, performant, and maintainable code. Comfortable across the stack (Node/Express, Python/Django) with solid CI/CD and testing practices.",
   "highlights": [
-    "Redux Toolkit",
-    "RTK Query",
+    "Generative AI / LLM Integration",
+    "Redux Toolkit & RTK Query",
     "React Context API",
-    "State Management",
+    "Advanced State Management",
     "TypeScript",
     "React Hooks",
-    "Next.js (App Router, Turbopack)",
-    "AWS CDK",
+    "Next.js (App Router)",
+    "Design Systems & Storybook",
     "Docker & Kubernetes",
     "CI/CD (GitHub Actions, Jenkins)"
   ],
   "skills": {
-    "primary": ["React.js", "Redux", "Redux Toolkit RTK", "JavaScript", "Vue 2/3 (Composition API)", "TypeScript", "Node.js", "Express", "PHP"],
-    "ai": ["OpenAI API", "TensorFlow", "PyTorch", "scikit-learn", "AI-driven interfaces", "Recommendation engines", "Computer vision"],
-    "cms_platforms": ["WordPress (MU, custom themes/plugins)", "AEM", "Shopify", "BigCommerce", "WooCommerce", "Squarespace"],
-    "devops": ["CI/CD (GitHub Actions, Jenkins, CircleCI)", "Docker", "Kubernetes", "Terraform", "CloudFormation", "AWS (ELB, Auto Scaling)"],
-    "frontend": ["HTML5", "CSS3/SASS", "Responsive/Mobile-first", "Accessibility (WCAG)", "Performance Optimization", "UX Enhancement"],
-    "data_apis": ["REST", "SOAP", "JSON", "XML", "SQL/JDBC", "NoSQL (MongoDB, Redis, Cassandra)", "API integration"],
-    "tooling": ["Git/GitHub", "Gulp", "VS Code", "Figma", "Photoshop", "Agile/Scrum"]
+    "primary": [
+      "React.js",
+      "Redux",
+      "Redux Toolkit (RTK)",
+      "RTK Query",
+      "JavaScript (ES202x)",
+      "TypeScript",
+      "Next.js",
+      "Vue 3 (Composition API)",
+      "Node.js",
+      "Express",
+      "Python",
+      "Django",
+      "PHP"
+    ],
+    "ai": [
+      "OpenAI API",
+      "Prompt Engineering",
+      "LangChain/RAG",
+      "TensorFlow",
+      "PyTorch",
+      "scikit-learn",
+      "AI-driven interfaces",
+      "Recommendation engines",
+      "Computer vision"
+    ],
+    "cms_platforms": [
+      "WordPress (MU, custom themes/plugins)",
+      "AEM",
+      "Shopify",
+      "BigCommerce",
+      "WooCommerce",
+      "Squarespace"
+    ],
+    "devops": [
+      "CI/CD (GitHub Actions, Jenkins, CircleCI)",
+      "Docker",
+      "Kubernetes",
+      "Terraform",
+      "Containerization & Observability"
+    ],
+    "frontend": [
+      "HTML5",
+      "CSS3/SASS",
+      "Responsive/Mobile-first",
+      "Accessibility (WCAG)",
+      "Performance Optimization",
+      "UX Collaboration"
+    ],
+    "data_apis": [
+      "REST",
+      "GraphQL",
+      "SOAP",
+      "JSON",
+      "XML",
+      "SQL/JDBC",
+      "NoSQL (MongoDB, Redis, Cassandra)",
+      "API integration"
+    ],
+    "tooling": [
+      "Git/GitHub",
+      "Vite/Webpack",
+      "VS Code",
+      "Storybook",
+      "Figma",
+      "Photoshop",
+      "Agile/Scrum",
+      "ESLint/Prettier"
+    ]
   },
   "experience": [
     {
@@ -36,24 +98,24 @@
       "location": "Remote / CA",
       "roles": [
         {
-          "title": "Front-end Web Developer",
+          "title": "Front-End Web Developer",
           "period": "Apr 2020 – Apr 2025",
           "highlights": [
             "Architected responsive member-portal features (billing, scheduling, pharmacy); improved satisfaction and reduced mobile bounce.",
             "Converted 100+ legacy HTML/RESX assets into reusable AEM components; accelerated content updates by 40% across 500+ microsites.",
             "Developed Single Billing Office solution in React; led integration testing and multi-region rollout.",
             "Shipped MyChart Evolution enhancements; increased portal engagement by ~25% and reduced support calls by ~15%.",
-            "Automated infra on AWS (CI/CD, Docker, ELB, Auto Scaling) for scalable, reliable delivery.",
+            "Implemented modern CI/CD and containerized delivery for scalable, reliable releases.",
             "Automated release flow with Git + Jenkins; trimmed manual steps by ~60% and sped time-to-production.",
-            "Implemented state management solutions in React applications using Redux Toolkit for scalable global state and React Context API for lightweight shared state (authentication, theme).",
-            "Designed modular Redux slices to handle complex business logic, asynchronous data fetching, and API integration with Redux Thunk/RTK Query.",
-            "Leveraged Redux DevTools to debug and trace application state changes, improving developer productivity and reducing bugs.",
-            "Balanced Context API for simplicity and Redux for predictability and scalability, ensuring optimal performance and maintainability.",
-            "Developed production-ready React applications with predictable, centralized state management, resulting in improved user experience and cleaner architecture."
+            "Implemented state-management patterns using Redux Toolkit for global state and React Context API for lightweight shared state (authentication, theme).",
+            "Designed modular Redux slices for complex business logic, async data fetching, and API integration with Thunks/RTK Query.",
+            "Leveraged Redux DevTools for state-change tracing, improving developer productivity and reducing bugs.",
+            "Balanced Context for simplicity and Redux for predictability/scalability to ensure performance and maintainability.",
+            "Delivered production React apps with predictable, centralized state, improving UX and architecture clarity."
           ]
         },
         {
-          "title": "Front-end / Content Web Developer",
+          "title": "Front-End / Content Web Developer",
           "period": "May 2017 – Apr 2020",
           "highlights": [
             "Led WordPress MU network of 500+ healthcare sites; standardized templates/workflows to improve launch speed by ~30%.",
@@ -89,7 +151,7 @@
   "ai_projects": [
     "Slack bot (Node.js + OpenAI) auto-summarizing threads; cut meeting prep time by ~50%.",
     "GPT-4 customer-support chatbot automating ~70% of inquiries; first-response time from 4h to <30m.",
-    "TensorFlow.js in-browser intent classifier for scheduling; ~92% accuracy, -75% manual parsing.",
+    "TensorFlow.js in-browser intent classifier for scheduling; ~92% accuracy, −75% manual parsing.",
     "TensorFlow CNN for manufacturing defect detection; ~96% precision, reduced inspection costs by ~40%."
   ],
   "education": [
