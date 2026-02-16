@@ -8,7 +8,7 @@
     { "label": "GitHub", "url": "https://github.com/robbiesherre67" }
   ],
 
-  "summary": "Senior Epic MyChart–focused front-end engineer and application specialist with 10+ years of experience delivering patient-facing digital solutions across large healthcare systems. Combines deep knowledge of Epic MyChart workflows, mobile capabilities, and patient engagement architecture with modern front-end engineering expertise in React 19, Vue, and AI-driven interfaces. Experienced building chat-based assistants, SMART on FHIR applications, and scalable component systems aligned to healthcare security, accessibility, and performance standards. Proven ability to translate clinical and operational requirements into reliable, user-friendly web solutions while collaborating across analysts, architects, and engineering teams.",
+  "summary": "Senior Epic MyChart focused front-end engineer and application specialist with 10+ years of experience delivering patient-facing digital solutions across large healthcare systems. Combines deep knowledge of Epic MyChart workflows, mobile capabilities, and patient engagement architecture with modern front-end engineering expertise in React 19, Vue, and AI-driven interfaces. Experienced building chat-based assistants, SMART on FHIR applications, and scalable component systems aligned to healthcare security, accessibility, and performance standards. Proven ability to translate clinical and operational requirements into reliable, user-friendly web solutions while collaborating across analysts, architects, and engineering teams.",
 
   "highlights": [
     "Epic MyChart & Patient Experience Platforms",
@@ -103,7 +103,7 @@
       "roles": [
         {
           "title": "Epic Application Analyst – MyChart, Patient Experience & Web Integrations",
-          "period": "Apr 2020 – Apr 2025",
+          "period": "Apr 2020 - Apr 2025",
           "highlights": [
             "Led design and implementation of patient-facing Epic MyChart workflows supporting scheduling, messaging, and digital care pathways across multiple specialties.",
             "Configured MyChart scheduling logic, visit types, provider templates, and portal navigation to improve patient access and workflow reliability.",

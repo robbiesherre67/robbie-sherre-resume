@@ -9,7 +9,7 @@
 
   "scripts": {
     "dev": "next dev --turbopack",
-    "validate:resume": "node -e \"JSON.parse(require('fs').readFileSync('./resume.json','utf8'))\"",
+    "validate:resume": "node -e \"JSON.parse(require('fs').readFileSync('./data/resume.json','utf8'))\"",
     "build": "npm run validate:resume && next build --turbopack",
     "start": "next start",
     "lint": "eslint"
