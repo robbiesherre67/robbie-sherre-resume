@@ -97,55 +97,74 @@
   },
 
   "experience": [
-    {
-      "company": "Kaiser Permanente",
-      "location": "Remote / Pasadena, CA",
-      "roles": [
-        {
-          "title": "Epic Application Analyst – MyChart, Patient Experience & Web Integrations",
-          "period": "Apr 2020 - Apr 2025",
-          "highlights": [
-            "Led design and implementation of patient-facing Epic MyChart workflows supporting scheduling, messaging, and digital care pathways across multiple specialties.",
-            "Configured MyChart scheduling logic, visit types, provider templates, and portal navigation to improve patient access and workflow reliability.",
-            "Designed specialist e-Consult workflows using SmartForms, SmartTexts, routing logic, and billing automation triggers ensuring compliant documentation and CPT accuracy.",
-            "Built SMART on FHIR web applications launched from Epic using OAuth2 PKCE authentication and secure clinical context handling.",
-            "Worked across DEV / TST / PRD environments executing governed deployments using Strings Manager, Kuiper, KDiff, and ServiceNow.",
-            "Collaborated with interoperability, clinical, and infrastructure teams to diagnose workflow failures impacting patient journeys across scheduling, documentation, and billing.",
-            "Delivered modern web-based extensions that improved usability, reliability, and operational efficiency across Kaiser’s enterprise Epic platform."
-          ]
-        },
-        {
-          "title": "Front-End Developer – Enterprise Web & Patient Experience Platforms",
-          "period": "May 2017 – Apr 2020",
-          "highlights": [
-            "Developed and maintained Kaiser Permanente’s enterprise healthcare web platform spanning 500+ sites across AEM and WordPress MU.",
-            "Built reusable UI components and design system patterns supporting scalable patient-facing experiences.",
-            "Partnered with UX, marketing, and clinical stakeholders to improve navigation, accessibility, and engagement across digital healthcare properties.",
-            "Contributed to MyChart-related initiatives focused on portal UI alignment, localization, and cross-platform experience consistency.",
-            "Improved deployment governance and content workflows, enabling faster rollout of standardized patient-facing experiences."
-          ]
-        }
-      ]
-    },
+  {
+    "company": "iDesignTek",
+    "location": "Remote / Burbank, CA",
+    "roles": [
+      {
+        "title": "Senior Front-End & Healthcare Application Engineer",
+        "period": "Apr 2025 – Present",
+        "highlights": [
+          "Developed enterprise healthcare-focused web applications combining modern front-end engineering with AI-assisted workflows and clinical integrations.",
+          "Built Vue and React SMART on FHIR demonstration applications showcasing patient-facing clinical data views powered by FHIR R4 APIs and secure OAuth2 launch flows.",
+          "Worked under NDA on clinician-focused chatbot and voice-assistant application supporting workflow navigation and clinical information retrieval.",
+          "Delivered modular UI systems, automated build pipelines, and optimized deployment workflows supporting scalable healthcare application delivery.",
+          "Published portfolio demos illustrating production-ready Epic-integrated application architecture."
+        ]
+      }
+    ]
+  },
 
-    {
-      "company": "iDesignTek",
-      "location": "Remote / Burbank, CA",
-      "roles": [
-        {
-          "title": "Senior Front-End & Healthcare Application Engineer",
-          "period": "Apr 2025 – Dec 2025",
-          "highlights": [
-            "Developed enterprise healthcare-focused web applications combining modern front-end engineering with AI-assisted workflows and clinical integrations.",
-            "Built Vue and React SMART on FHIR demonstration applications showcasing patient-facing clinical data views powered by FHIR R4 APIs and secure OAuth2 launch flows.",
-            "Worked under NDA on clinician-focused chatbot and voice-assistant application supporting workflow navigation and clinical information retrieval.",
-            "Delivered modular UI systems, automated build pipelines, and optimized deployment workflows supporting scalable healthcare application delivery.",
-            "Published portfolio demos illustrating production-ready Epic-integrated application architecture."
-          ]
-        }
-      ]
-    }
-  ],
+  {
+    "company": "Kaiser Permanente",
+    "location": "Remote / Pasadena, CA",
+    "roles": [
+      {
+        "title": "Epic Application Analyst – MyChart, Patient Experience & Web Integrations",
+        "period": "Apr 2020 – Mar 2025",
+        "highlights": [
+          "Led design and implementation of patient-facing Epic MyChart workflows supporting scheduling, messaging, and digital care pathways across multiple specialties.",
+          "Configured MyChart scheduling logic, visit types, provider templates, and portal navigation to improve patient access and workflow reliability.",
+          "Designed specialist e-Consult workflows using SmartForms, SmartTexts, routing logic, and billing automation triggers ensuring compliant documentation and CPT accuracy.",
+          "Built SMART on FHIR web applications launched from Epic using OAuth2 PKCE authentication and secure clinical context handling.",
+          "Worked across DEV / TST / PRD environments executing governed deployments using Strings Manager, Kuiper, KDiff, and ServiceNow.",
+          "Collaborated with interoperability, clinical, and infrastructure teams to diagnose workflow failures impacting patient journeys across scheduling, documentation, and billing.",
+          "Delivered modern web-based extensions that improved usability, reliability, and operational efficiency across Kaiser’s enterprise Epic platform."
+        ]
+      },
+      {
+        "title": "Front-End Developer – Enterprise Web & Patient Experience Platforms",
+        "period": "May 2017 – Mar 2020",
+        "highlights": [
+          "Developed and maintained Kaiser Permanente’s enterprise healthcare web platform spanning 500+ sites across AEM and WordPress MU.",
+          "Built reusable UI components and design system patterns supporting scalable patient-facing experiences.",
+          "Partnered with UX, marketing, and clinical stakeholders to improve navigation, accessibility, and engagement across digital healthcare properties.",
+          "Contributed to MyChart-related initiatives focused on portal UI alignment, localization, and cross-platform experience consistency.",
+          "Improved deployment governance and content workflows, enabling faster rollout of standardized patient-facing experiences."
+        ]
+      }
+    ]
+  },
+
+  {
+    "company": "Cinema Libre Studio",
+    "location": "Burbank, CA",
+    "roles": [
+      {
+        "title": "Front-End Developer – Freelance",
+        "period": "Oct 2010 – Apr 2017",
+        "highlights": [
+          "Designed and built client-facing microsites and promotional web platforms using modern JavaScript frameworks and CMS systems for film and media clients.",
+          "Developed custom WordPress themes and plugins and managed deployments across Squarespace, Shopify, BigCommerce, and WooCommerce ecosystems.",
+          "Integrated third-party JSON APIs to deliver dynamic, content-driven web experiences and marketing features.",
+          "Optimized front-end performance, achieving Lighthouse scores above 90 and reducing page-load times by up to 50%.",
+          "Collaborated with creative directors, designers, and marketing teams to translate brand guidelines into accessible, responsive, mobile-first experiences.",
+          "Designed and maintained relational and NoSQL data structures using MySQL, PostgreSQL, MongoDB, and Redis, including indexing, migrations, and backup strategies."
+        ]
+      }
+    ]
+  }
+],
 
   "projects": [
     {
