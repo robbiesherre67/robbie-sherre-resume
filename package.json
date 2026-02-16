@@ -2,19 +2,27 @@
   "name": "interactive-resume",
   "version": "0.1.0",
   "private": true,
+
+  "engines": {
+    "node": ">=18.18.0"
+  },
+
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build --turbopack",
+    "validate:resume": "node -e \"JSON.parse(require('fs').readFileSync('./resume.json','utf8'))\"",
+    "build": "npm run validate:resume && next build --turbopack",
     "start": "next start",
     "lint": "eslint"
   },
+
   "dependencies": {
     "docx": "^9.5.1",
-    "next": "15.5.0",
+    "next": "^15.5.2",
     "openai": "^5.15.0",
     "react": "19.1.0",
     "react-dom": "19.1.0"
   },
+
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
@@ -23,9 +31,9 @@
     "@types/react-dom": "^19",
     "autoprefixer": "^10.4.19",
     "eslint": "^9",
-    "eslint-config-next": "15.5.0",
-    "postcss": "^8.4.38",
-    "tailwindcss": "^3.4.3",
+    "eslint-config-next": "^15.5.2",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.17",
     "typescript": "^5"
   }
 }
