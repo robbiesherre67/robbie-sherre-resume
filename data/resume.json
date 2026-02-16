@@ -1,161 +1,174 @@
 {
   "name": "Robbie Sherre",
-  "title": "Generative AI & Front-End Engineer | LLM Applications • React • Advanced State Management",
+  "title": "Senior React & Epic MyChart Engineer | AI Chat Interfaces • SMART on FHIR • Patient-Facing Platforms",
   "location": "Burbank, CA (Remote/Hybrid)",
   "phone": "747-214-9207",
   "email": "robbiesherre@idesigntek.com",
   "links": [
-    { "label": "GitHub", "url": "https://github.com/robbiesherre67" },
-    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/robbie-sherre" }
+    { "label": "GitHub", "url": "https://github.com/robbiesherre67" }
   ],
-  "summary": "Front-end and generative AI engineer building large-scale, user-centric web apps with React, Next.js, and modern state-management (Redux Toolkit, RTK Query, Context). Experienced delivering production component systems, integrating LLM capabilities, and shaping polished UX with accessible, performant, and maintainable code. Comfortable across the stack (Node/Express, Python/Django) with solid CI/CD and testing practices.",
+
+  "summary": "Senior Epic MyChart–focused front-end engineer and application specialist with 10+ years of experience delivering patient-facing digital solutions across large healthcare systems. Combines deep knowledge of Epic MyChart workflows, mobile capabilities, and patient engagement architecture with modern front-end engineering expertise in React 19, Vue, and AI-driven interfaces. Experienced building chat-based assistants, SMART on FHIR applications, and scalable component systems aligned to healthcare security, accessibility, and performance standards. Proven ability to translate clinical and operational requirements into reliable, user-friendly web solutions while collaborating across analysts, architects, and engineering teams.",
+
   "highlights": [
-    "Generative AI / LLM Integration",
-    "Redux Toolkit & RTK Query",
-    "React Context API",
-    "Advanced State Management",
-    "TypeScript",
-    "React Hooks",
-    "Next.js (App Router)",
-    "Design Systems & Storybook",
-    "Docker & Kubernetes",
-    "CI/CD (GitHub Actions, Jenkins)"
+    "Epic MyChart & Patient Experience Platforms",
+    "SMART on FHIR / OAuth2 PKCE",
+    "React 19 & Enterprise Component Systems",
+    "AI Chat Interfaces & LLM Integration",
+    "FHIR R4 API Integration",
+    "Redux Toolkit / Context / Pinia",
+    "Healthcare Accessibility & Compliance",
+    "Mobile-First Healthcare UX",
+    "CI/CD & Containerized Delivery",
+    "Cross-Functional Clinical Collaboration"
   ],
+
   "skills": {
-    "primary": [
-      "React.js",
-      "Redux",
-      "Redux Toolkit (RTK)",
+    "epic_healthcare": [
+      "Epic MyChart configuration & workflow design",
+      "SMART on FHIR integrations",
+      "FHIR R4 APIs",
+      "Strings Manager / Kuiper / KDiff",
+      "ServiceNow deployment workflows",
+      "DEV / TST / PRD release coordination",
+      "Patient portal engagement optimization",
+      "Epic data flow awareness",
+      "Clinical workflow alignment"
+    ],
+
+    "frontend_primary": [
+      "React.js (React 19 patterns)",
+      "Vue 3 (Composition API)",
+      "Redux Toolkit",
       "RTK Query",
-      "JavaScript (ES202x)",
+      "Pinia",
       "TypeScript",
       "Next.js",
-      "Vue 3 (Composition API)",
-      "Node.js",
-      "Express",
-      "Python",
-      "Django",
-      "PHP"
+      "JavaScript (ES202x)",
+      "HTML5 / CSS3",
+      "Responsive mobile-first UI"
     ],
-    "ai": [
+
+    "ai_interfaces": [
       "OpenAI API",
-      "Prompt Engineering",
-      "LangChain/RAG",
-      "TensorFlow",
-      "PyTorch",
-      "scikit-learn",
-      "AI-driven interfaces",
-      "Recommendation engines",
-      "Computer vision"
+      "LLM chat interfaces",
+      "Streaming response UX",
+      "Document context workflows",
+      "AI assistant UI patterns",
+      "Prompt design for user workflows"
     ],
+
+    "integration_apis": [
+      "SMART on FHIR launch context",
+      "OAuth2 PKCE authentication",
+      "REST",
+      "GraphQL",
+      "FHIR Patient / Encounter / Observation / MedicationRequest",
+      "JSON / XML",
+      "SQL / NoSQL"
+    ],
+
+    "devops_tooling": [
+      "AWS",
+      "Docker",
+      "Kubernetes",
+      "Terraform",
+      "CI/CD (GitHub Actions, Jenkins)",
+      "Git / GitHub",
+      "Observability & deployment automation"
+    ],
+
     "cms_platforms": [
-      "WordPress (MU, custom themes/plugins)",
-      "AEM",
+      "Adobe Experience Manager (AEM)",
+      "WordPress MU",
       "Shopify",
       "BigCommerce",
       "WooCommerce",
       "Squarespace"
     ],
-    "devops": [
-      "CI/CD (GitHub Actions, Jenkins, CircleCI)",
-      "Docker",
-      "Kubernetes",
-      "Terraform",
-      "Containerization & Observability"
-    ],
-    "frontend": [
-      "HTML5",
-      "CSS3/SASS",
-      "Responsive/Mobile-first",
-      "Accessibility (WCAG)",
-      "Performance Optimization",
-      "UX Collaboration"
-    ],
-    "data_apis": [
-      "REST",
-      "GraphQL",
-      "SOAP",
-      "JSON",
-      "XML",
-      "SQL/JDBC",
-      "NoSQL (MongoDB, Redis, Cassandra)",
-      "API integration"
-    ],
-    "tooling": [
-      "Git/GitHub",
-      "Vite/Webpack",
-      "VS Code",
-      "Storybook",
-      "Figma",
-      "Photoshop",
-      "Agile/Scrum",
-      "ESLint/Prettier"
+
+    "testing_quality": [
+      "Jest",
+      "Cypress",
+      "Accessibility testing (WCAG)",
+      "ESLint / Prettier",
+      "Cross-browser validation"
     ]
   },
+
   "experience": [
     {
       "company": "Kaiser Permanente",
-      "location": "Remote / CA",
+      "location": "Remote / Pasadena, CA",
       "roles": [
         {
-          "title": "Front-End Web Developer",
+          "title": "Epic Application Analyst – MyChart, Patient Experience & Web Integrations",
           "period": "Apr 2020 – Apr 2025",
           "highlights": [
-            "Architected responsive member-portal features (billing, scheduling, pharmacy); improved satisfaction and reduced mobile bounce.",
-            "Converted 100+ legacy HTML/RESX assets into reusable AEM components; accelerated content updates by 40% across 500+ microsites.",
-            "Developed Single Billing Office solution in React; led integration testing and multi-region rollout.",
-            "Shipped MyChart Evolution enhancements; increased portal engagement by ~25% and reduced support calls by ~15%.",
-            "Implemented modern CI/CD and containerized delivery for scalable, reliable releases.",
-            "Automated release flow with Git + Jenkins; trimmed manual steps by ~60% and sped time-to-production.",
-            "Implemented state-management patterns using Redux Toolkit for global state and React Context API for lightweight shared state (authentication, theme).",
-            "Designed modular Redux slices for complex business logic, async data fetching, and API integration with Thunks/RTK Query.",
-            "Leveraged Redux DevTools for state-change tracing, improving developer productivity and reducing bugs.",
-            "Balanced Context for simplicity and Redux for predictability/scalability to ensure performance and maintainability.",
-            "Delivered production React apps with predictable, centralized state, improving UX and architecture clarity."
+            "Led design and implementation of patient-facing Epic MyChart workflows supporting scheduling, messaging, and digital care pathways across multiple specialties.",
+            "Configured MyChart scheduling logic, visit types, provider templates, and portal navigation to improve patient access and workflow reliability.",
+            "Designed specialist e-Consult workflows using SmartForms, SmartTexts, routing logic, and billing automation triggers ensuring compliant documentation and CPT accuracy.",
+            "Built SMART on FHIR web applications launched from Epic using OAuth2 PKCE authentication and secure clinical context handling.",
+            "Worked across DEV / TST / PRD environments executing governed deployments using Strings Manager, Kuiper, KDiff, and ServiceNow.",
+            "Collaborated with interoperability, clinical, and infrastructure teams to diagnose workflow failures impacting patient journeys across scheduling, documentation, and billing.",
+            "Delivered modern web-based extensions that improved usability, reliability, and operational efficiency across Kaiser’s enterprise Epic platform."
           ]
         },
         {
-          "title": "Front-End / Content Web Developer",
+          "title": "Front-End Developer – Enterprise Web & Patient Experience Platforms",
           "period": "May 2017 – Apr 2020",
           "highlights": [
-            "Led WordPress MU network of 500+ healthcare sites; standardized templates/workflows to improve launch speed by ~30%.",
-            "Drove transition from BCssP TeamSite to AEM; trained content teams and documented best practices.",
-            "Configured MyChart/Epic Systems localization to ensure consistent terminology and regulatory compliance.",
-            "React front ends + WP MU back ends for 500+ microsites (including CVS).",
-            "Testing & Quality: TDD, ESLint/Prettier, cross-browser, WCAG accessibility.",
-            "Design & Collaboration: responsive design, UX strategy, Agile/Scrum, Adobe Photoshop."
+            "Developed and maintained Kaiser Permanente’s enterprise healthcare web platform spanning 500+ sites across AEM and WordPress MU.",
+            "Built reusable UI components and design system patterns supporting scalable patient-facing experiences.",
+            "Partnered with UX, marketing, and clinical stakeholders to improve navigation, accessibility, and engagement across digital healthcare properties.",
+            "Contributed to MyChart-related initiatives focused on portal UI alignment, localization, and cross-platform experience consistency.",
+            "Improved deployment governance and content workflows, enabling faster rollout of standardized patient-facing experiences."
           ]
         }
       ]
     },
+
     {
-      "company": "Cinema Libre Studio",
-      "location": "Burbank, CA",
+      "company": "iDesignTek",
+      "location": "Remote / Burbank, CA",
       "roles": [
         {
-          "title": "Front-End Developer (Freelance)",
-          "period": "Oct 2016 – Mar 2020",
+          "title": "Senior Front-End & Healthcare Application Engineer",
+          "period": "Apr 2025 – Dec 2025",
           "highlights": [
-            "Built React/Vue microsites for film clients; integrated JSON APIs for dynamic, mobile-first experiences.",
-            "Custom WordPress themes/plugins; deployed across Shopify, BigCommerce, WooCommerce, Squarespace.",
-            "Translated brand guidelines into responsive, WCAG-compliant UIs with designers/UX.",
-            "Architected FE with React Hooks/Redux, Vue Composition API/Pinia, real-time updates via REST/WebSockets.",
-            "Implemented relational (MySQL/Postgres) and NoSQL (MongoDB/Redis/Cassandra) data layers, including optimization and migrations.",
-            "Testing: Jest/Cypress e2e achieving ~95% coverage; reduced production bugs.",
-            "DevOps: Docker/Kubernetes, CI/CD with GitHub Actions/Jenkins/CircleCI, Terraform/CloudFormation."
+            "Developed enterprise healthcare-focused web applications combining modern front-end engineering with AI-assisted workflows and clinical integrations.",
+            "Built Vue and React SMART on FHIR demonstration applications showcasing patient-facing clinical data views powered by FHIR R4 APIs and secure OAuth2 launch flows.",
+            "Worked under NDA on clinician-focused chatbot and voice-assistant application supporting workflow navigation and clinical information retrieval.",
+            "Delivered modular UI systems, automated build pipelines, and optimized deployment workflows supporting scalable healthcare application delivery.",
+            "Published portfolio demos illustrating production-ready Epic-integrated application architecture."
           ]
         }
       ]
     }
   ],
-  "ai_projects": [
-    "Slack bot (Node.js + OpenAI) auto-summarizing threads; cut meeting prep time by ~50%.",
-    "GPT-4 customer-support chatbot automating ~70% of inquiries; first-response time from 4h to <30m.",
-    "TensorFlow.js in-browser intent classifier for scheduling; ~92% accuracy, −75% manual parsing.",
-    "TensorFlow CNN for manufacturing defect detection; ~96% precision, reduced inspection costs by ~40%."
+
+  "projects": [
+    {
+      "name": "Vue SMART on FHIR Starter",
+      "url": "https://robbiesherre67.github.io/vue-smart-fhir-starter/",
+      "description": "Patient-facing SMART on FHIR demo showing secure launch, OAuth2 PKCE flow, and real-time clinical data retrieval using Vue 3."
+    },
+    {
+      "name": "React SMART on FHIR Demo",
+      "url": "https://robbiesherre67.github.io/react-smart-fhir-demo/",
+      "description": "React-based Epic-launchable healthcare app demonstrating FHIR data rendering and modern patient-facing UI architecture."
+    }
   ],
+
   "education": [
-    { "school": "UCLA Extension", "program": "Computer Science", "period": "2002 – 2004" },
-    { "school": "General Assembly", "program": "JavaScript", "period": "2005 – 2006" }
+    {
+      "school": "UCLA Extension",
+      "program": "Computer Science",
+      "period": "2002 – 2004"
+    }
+  ],
+
+  "certifications": [
+    "Target: Epic MyChart Certification (within 3 months of hire)"
   ]
 }
